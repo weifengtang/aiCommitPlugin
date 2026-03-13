@@ -1,0 +1,9 @@
+<actions>
+    <action id="conventionalCommits" class="com.yourpackage.ConventionalCommitsAction" icon="AllIcons.Actions.AI" />
+</actions>
+<groups>
+    <group id="ChangesView.CommitToolbar">
+        <!-- Registering the action in the commit toolbar -->
+        <action id="conventionalCommits" after="Vcs.ToggleAmendCommitMode" />
+    </group>
+</groups>
