@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.example.aicommit</id>
+    <name>AI Commit</name>
+    <vendor>Example</vendor>
+
+    <description><![CDATA[
+        在 IntelliJ IDEA 的 Commit 窗口添加 "✨ AI Commit" checkbox，
+        勾选后自动在 commit message 末尾添加 #AI commit# 标识。
+    ]]></description>
+
+    <change-notes><![CDATA[
+        Initial release.
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <checkinHandlerFactory implementation="com.example.aicommit.AICommitCheckInHandlerFactory"/>
+    </extensions>
+</idea-plugin>
