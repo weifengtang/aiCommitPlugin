@@ -2,12 +2,6 @@
 
 IntelliJ IDEA 插件，在 Commit 窗口添加 "✨ AI Commit" checkbox，勾选后自动在 commit message 末尾添加 `#AI commit#` 标识。
 
-背景是：
-公司通知vibe coding量，要求在
-commit message中添加`#AI commit#`标识，但是在提交代码时，如果是ai写的需要加上关键字，后续统计指标
-但是人工经常会写错，如`#AI COMMIT#`导致指标会有偏差
-所以就写了一个插件，在commit窗口添加一个checkbox，勾选后自动在commit message 末尾添加`#AI commit#`标识
-
 ## 功能特性
 
 - ✅ 在 Commit 窗口底部添加 "✨ AI Commit" checkbox
