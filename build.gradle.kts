@@ -28,7 +28,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("232")
-        untilBuild.set("241.*")
+        untilBuild.set("273.*")
     }
 
     // 禁用下载 IDEA（仅用于验证/测试）
